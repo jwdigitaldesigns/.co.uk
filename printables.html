@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Printables | JW Digital Designs</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/printables.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="printables-page">
+    <!-- NAV -->
+    <nav class="navbar">
+      <div class="nav-logo">JWDIGITALDESIGNS</div>
+      <div class="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="nav-links">
+        <a href="about.html">ABOUT</a>
+        <a href="printables.html">PRINTABLES</a>
+        <a href="blog.html">BLOG</a>
+        <a href="contact.html">CONTACT</a>
+      </div>
+    </nav>
+
+    <!-- PRINTABLES HERO -->
+    <header class="printables-header">
+      <h1>Browse All Printables</h1>
+      <p>
+        Discover our full library of digital resources to help you stay inspired,
+        organised, and connected.
+      </p>
+    </header>
+    <div class="large-divider"></div>
+   <section class="printables">
+  <h2>Our Printables Library</h2>
+  <div class="small-divider"></div>
+  <p class="printables-intro">
+    Browse by category — planners, notebooks, worksheets, and more.
+  </p>
+  <div class="printables-controls">
+  <input 
+    type="text" 
+    id="searchInput" 
+    placeholder="Search printables..." />
+</div>
+<p id="noResults" style="display:none; text-align:center; margin:2rem 0; color:#556B53; font-weight:bold;">
+  No printables found.
+</p>
+
+  <div class="filter-buttons">
+  <button class="filter-btn active" data-category="all">All</button>
+  <button class="filter-btn" data-category="notebooks">Notebooks</button>
+  <button class="filter-btn" data-category="planners">Planners</button>
+  <button class="filter-btn" data-category="worksheets">Worksheets</button>
+  <button class="filter-btn" data-category="creative">Creative</button>
+  </div>
+
+  <!-- Category: Notebooks -->
+<div class="category-group" data-category="notebooks">
+    <h3>Notebook Pages</h3>
+  <div class="printables-cards">
+    <div class="card">
+      <div class="thumb" style="background: #e8dcc7;"></div>
+      <h3>Lined Pages</h3>
+      <p>Classic lined paper for journaling or note-taking.</p>
+      <a href="#" class="small-btn">Download</a>
+    </div>
+    <div class="card">
+      <div class="thumb" style="background: #8aa6a3;"></div>
+      <h3>Dotted Pages</h3>
+      <p>Perfect for bullet journaling and sketching ideas.</p>
+      <a href="#" class="small-btn">Download</a>
+    </div>
+    <div class="card placeholder">
+    <div class="thumb"></div>
+    <h3>Coming Soon</h3>
+    <p>New notebook pages will appear here.</p>
+  </div>
+  <div class="card placeholder">
+    <div class="thumb"></div>
+    <h3>Coming Soon</h3>
+    <p>New notebook pages will appear here.</p>
+  </div>
+  </div>
+  </div>
+  <!-- Category: Planners -->
+   <div class="category-group" data-category="planners">
+  <h3>Planner Pages</h3>
+  <div class="printables-cards">
+    <div class="card">
+      <div class="thumb" style="background: #556b53;"></div>
+      <h3>Daily Planner</h3>
+      <p>Stay on top of your day with this printable layout.</p>
+      <a href="#" class="small-btn">Download</a>
+    </div>
+    <div class="card">
+      <div class="thumb" style="background: #fdf8f2;"></div>
+      <h3>Weekly Planner</h3>
+      <p>Plan your week with clarity and balance.</p>
+      <a href="#" class="small-btn">Download</a>
+    </div>
+    <div class="card placeholder">
+    <div class="thumb"></div>
+    <h3>Coming Soon</h3>
+    <p>New notebook pages will appear here.</p>
+  </div>
+  <div class="card placeholder">
+    <div class="thumb"></div>
+    <h3>Coming Soon</h3>
+    <p>New notebook pages will appear here.</p>
+  </div>
+  </div>
+ </div>
+
+  <!-- Category: Worksheets -->
+   <div class="category-group" data-category="worksheets">
+  <h3>Worksheets</h3>
+  <div class="printables-cards">
+    <div class="card">
+      <div class="thumb" style="background: #3a2f2f;"></div>
+      <h3>Goal Tracker</h3>
+      <p>Break down your big goals into manageable steps.</p>
+      <a href="#" class="small-btn">Download</a>
+    </div>
+    <div class="card">
+      <div class="thumb" style="background: #e8dcc7;"></div>
+      <h3>Reflection Sheet</h3>
+      <p>Jot down thoughts and insights after study sessions.</p>
+      <a href="#" class="small-btn">Download</a>
+    </div>
+    <div class="card placeholder">
+    <div class="thumb"></div>
+    <h3>Coming Soon</h3>
+    <p>New notebook pages will appear here.</p>
+  </div>
+  <div class="card placeholder">
+    <div class="thumb"></div>
+    <h3>Coming Soon</h3>
+    <p>New notebook pages will appear here.</p>
+  </div>
+  </div></div>
+
+  <!-- Category: Creative Templates -->
+   <div class="category-group" data-category="creative">
+  <h3>Creative Templates</h3>
+  <div class="printables-cards">
+    <div class="card">
+      <div class="thumb" style="background: #8aa6a3;"></div>
+      <h3>Scrapbook Layout</h3>
+      <p>Add some creativity to your journals with scrapbook pages.</p>
+      <a href="#" class="small-btn">Download</a>
+    </div>
+    <div class="card">
+      <div class="thumb" style="background: #556b53;"></div>
+      <h3>Habit Tracker</h3>
+      <p>Track your habits with a minimalist, printable template.</p>
+      <a href="#" class="small-btn">Download</a>
+    </div>
+    <div class="card placeholder">
+    <div class="thumb"></div>
+    <h3>Coming Soon</h3>
+    <p>New notebook pages will appear here.</p>
+    <a href="#" class="small-btn">Download</a>
+  </div>
+  <div class="card placeholder">
+    <div class="thumb"></div>
+    <h3>Coming Soon</h3>
+    <p>New notebook pages will appear here.</p>
+    <a href="#" class="small-btn">Download</a>
+  </div>
+  </div>
+  </div>
+</section>
+
+
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy; JWDIGITALDESIGNS</p>
+      <div class="footer-links">
+        <a href="about.html">ABOUT</a>
+        <a href="printables.html">PRINTABLES</a>
+        <a href="blog.html">BLOG</a>
+        <a href="contact.html">CONTACT</a>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+    <script type="module" src="/js/printables.js"></script>
+  </body>
+</html>
