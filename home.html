@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JW Digital Designs</title>
+    <link rel="stylesheet" href="/styles/style.css"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="data:," />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav class="navbar">
+      <div class="nav-logo">JWDIGITALDESIGNS</div>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="nav-links">
+        <a href="#about">ABOUT</a>
+        <a href="#printables">PRINTABLES</a>
+        <a href="#cta">BLOG</a>
+        <a href="#cta">CONTACT</a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero" id="hero">
+      <h1>JW Digital Designs</h1>
+      <p>A peaceful space to grow in your personal study</p>
+      <button class="main-btn" id="openModal">Sign up for free resources</button>
+    </header>
+
+   <div class="modal" id="modal">
+  <div class="modal-content">
+    <span class="close" id="closeModal">&times;</span>
+    <h2>JOIN THE NEWSLETTER</h2>
+    <p>Sign up for free printables.</p>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <input type="text" name="name" placeholder="Your name:" required>
+      <input type="email" name="email" placeholder="Your email:" required>
+      <button type="submit" class="sign-up-btn">SIGN UP</button>
+    </form>
+    <p id="thankYouMessage" style="display:none; color:green; margin-top:10px;">Thank you! You’ve been signed up.</p>
+  </div>
+</div>
+
+
+    <!-- ABOUT -->
+    <section id="about" class="about-section alt">
+      <h2 class="section-title">About Us</h2>
+      <div class="large-divider"></div>
+      <div class="pillars">
+        <div class="pillar">
+          <i data-lucide="heart"></i>
+          <h3>Faith</h3>
+          <button class="small-btn">Explore Faith</button>
+        </div>
+        <div class="pillar">
+          <i data-lucide="palette"></i>
+          <h3>Creativity</h3>
+          <button class="small-btn">Explore Creativity</button>
+        </div>
+        <div class="pillar">
+          <i data-lucide="users"></i>
+          <h3>Community</h3>
+          <button class="small-btn">Explore Community</button>
+        </div>
+      </div>
+      <div class="small-divider"></div>
+      <div class="about-content">
+        <h3>
+          We believe in Faith, Creativity, and Community.
+        </h3>
+        <p>
+          Our mission is to bring people together through inspiration,
+          meaningful resources, and supportive connections.
+        </p>
+      </div>
+    </section>
+
+    <!-- PRINTABLES -->
+    <section id="printables" class="printables">
+      <h2>Recently Added Printables</h2>
+      <p class="printables-intro">
+        Fresh resources you can download instantly. Stay inspired and organised
+        every day!
+      </p>
+      <div class="small-divider"></div>
+      <div class="printables-cards">
+        <div class="card">
+          
+          <div class="thumb" style="background: #556b53;"></div>
+          <h3>Notebook Pages</h3>
+          <p>
+            Lined and dotted pages ready to print for your journaling or
+            note-taking.
+          </p>
+          <a href="#" class="small-btn">Download</a>
+        </div>
+
+        <div class="card">
+          <div class="thumb" style="background: #556b53;"></div>
+          <h3>Planner Pages</h3>
+          <p>Daily and weekly spreads to keep your schedule on track.</p>
+          <a href="#" class="small-btn">Download</a>
+        </div>
+
+        <div class="card">
+          <div class="thumb" style="background: #556b53;"></div>
+          <h3>Worksheets</h3>
+          <p>
+            Simple, guided sheets designed to help with productivity and
+            reflection.
+          </p>
+          <a href="#" class="small-btn">Download</a>
+        </div>
+
+        <div class="card">
+          <div class="thumb" style="background: #556b53;"></div>
+          <h3>...And More</h3>
+          <p>
+            Explore our growing library of creative and faith-based resources.
+          </p>
+          <a href="#" class="small-btn">Download</a>
+        </div>
+
+      </div>
+      <div class="small-divider"></div>
+      <a href="/pages/printables.html" class="btn med-btn">Browse All Printables</a>
+    </section>
+
+    <!-- CTA -->
+    <section id="cta" class="cta alt">
+      <div class="cta-container">
+        <h2>Join Our Community</h2>
+        <p>
+          Connect with others who share your passion for<br />
+          faith, creativity, and growth.
+        </p>
+        <div class="small-divider"></div>
+        <a href="/pages/blog.html" class="small-btn cta-btn">See Blog</a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy; JWDIGITALDESIGNS</p>
+      <a href="#"></a>
+      <div class="footer-links">
+        <a href="#">ABOUT</a>
+        <a href="#">PRINTABLES</a>
+        <a href="#">BLOG</a>
+        <a href="#">CONTACT</a>
+      </div>
+    </footer>
+    <script type="module" src="/js/index.js"></script>
+  </body>
+</html>
